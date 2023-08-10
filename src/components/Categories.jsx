@@ -13,7 +13,7 @@ export const Categories = () => {
   return (
     <Conatiner>
       {categories.map((item) => (
-        <CategoryItem item={item} />
+        <CategoryItem key={item.id} item={item} />
       ))}
     </Conatiner>
   );
