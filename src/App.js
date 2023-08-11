@@ -9,12 +9,12 @@ import { Cart } from "./pages/Cart";
 function App() {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       {/* <ProductList /> */}
       {/* <Product /> */}
       {/* <Register /> */}
       {/* <Login /> */}
-      <Cart />
+      {/* <Cart />  */}
     </div>
   );
 }
